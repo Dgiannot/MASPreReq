@@ -41,7 +41,8 @@ oc get secret bas-api-key -n "${projectName}" --output="jsonpath={.data.apikey}"
 echo ""
 
 echo "===========Certificates=============="
-oc get secret router-certs-default -n "openshift-ingress" -o "jsonpath={.data.tls\.crt}" | base64 -d
+#oc get secret router-certs-default -n "openshift-ingress" -o "jsonpath={.data.tls\.crt}" | base64 -d
+oc get secret event-api-certs -n "bas" -o "jsonpath={.data.tls\.crt}" | base64 -d
 
 displayStepHeader 3 "SLS Setup Parameters"
 
