@@ -1,5 +1,5 @@
 # mas-prereq-install
-Prereq software installation script for Maximo Application Suite 8.4
+Prereq software installation script for Maximo Application Suite 8.5
 
 Example:
 ```bash
@@ -13,6 +13,5 @@ $ export MONGO_REPLICAS=3
 $ export STORAGECLASS_RWO=ibmc-block-bronze
 $ export STORAGECLASS_RWM=ibmc-file-bronze-gid
 $ export DOMAIN_NAME=apps-crc.testing
-$ oc login -u kubeadmin -p ************ https://api.crc.testing:6443
 $ bash setup.sh
 ```
