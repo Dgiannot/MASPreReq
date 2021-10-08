@@ -25,5 +25,5 @@ displayStepHeader 1 "Create cert-manager namespace."
 oc create namespace cert-manager | tee -a ${logFile}
 
 displayStepHeader 2 "Install Cert Manager."
-oc apply -f https://github.com/jetstack/cert-manager/releases/download/v1.1.1/cert-manager.yaml | tee -a ${logFile}
+oc apply -f https://github.com/jetstack/cert-manager/releases/download/v1.2.0/cert-manager.yaml | tee -a ${logFile}
 
