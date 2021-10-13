@@ -12,6 +12,6 @@ $ export MONGO_REPLICAS=3
 # Specify your storage class https://kubernetes.io/docs/concepts/storage/persistent-volumes/
 $ export STORAGECLASS_RWO=ibmc-block-bronze
 $ export STORAGECLASS_RWM=ibmc-file-bronze-gid
-$ export DOMAIN_NAME=apps-crc.testing
+$ export DOMAIN_NAME=sub.domain.com
 $ bash setup.sh
 ```
