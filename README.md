@@ -1,4 +1,4 @@
-# mas-prereq-install
+# MASPreReq  -
 Prereq software installation script for Maximo Application Suite 8.5
 
 Example:
